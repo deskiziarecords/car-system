@@ -1,0 +1,7 @@
+apiVersion: v1 
+kind: ConfigMap 
+metadata: 
+  name: workshop-config 
+  namespace: automotive-workshop 
+data: 
+  DATABASE_URL: postgresql://workshop_user:workshop_pass@postgres:5432/workshop_db 
